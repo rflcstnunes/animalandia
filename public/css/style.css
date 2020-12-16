@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: 'Texturina', serif;
+  font-size: 17px;
+}
+
+/* GERAL */
+
+body {
+  background-color: #fcfcfc;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+.card {
+  width: 320px;
+  height: 430px;
+  margin: 15px;
+  display: flex;
+  align-items: center;
+  border-radius: 20px;
+}
+
+.divisaoPag {
+  width: 100%;
+  border-bottom: 3px dotted  rgba(141, 141, 141, 0.863);
+  border-radius: 50px;
+  opacity: 50%;
+}
+
+/* NAVEGAÇÃO */
+.nav {
+  background-color:rgba(184, 183, 183, 0.863);
+  height: 50px;
+  
+}
+
+/* LOGO */
+.animalandia {
+  width: 300px;
+  height: 60px;
+}
+
+/* LISTA GERAL */
+#navbarCollapse {
+  display: flex;
+  justify-content: space-between;
+}
+
+li {
+  padding: 10px;
+  margin-right: 5px;
+}
+
+.opcao {
+  color: black;
+  font-size: 18px;
+  padding: 10px 20px 10px 20px;
+}
+
+.opcao:hover {
+  border-radius: 20px 20px 20px 20px;
+  color: black;
+}
+
+.green:hover {
+  border-bottom: 2px solid #bde6b6;
+  background-color: #bde6b6;
+  transition: .5s;
+}
+
+.pink:hover {
+  border-bottom: 2px solid #F7D5E3;
+  background-color: #F7D5E3;
+  transition: .5s;
+}
+
+.blue:hover {
+  border-bottom: 2px solid #C2D8DC;
+  background-color: #C2D8DC;
+  transition: .5s;
+}
+
+.yellow:hover {
+  border-bottom: 2px solid #F1E6AF;
+  background-color: #F1E6AF;
+  transition: .5s;
+}
+
+/* PROJETO */
+.projeto, .adotar, .contato {
+  height: 800px;
+}
+
+.informacoes {
+  margin-top: 8%;
+}
+
+.title {
+  font-size: 40px;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.text {
+  font-size: 17px;
+}
+
+/* CAROUSEL */
+.carousel {
+  width: 580px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+.carousel img {
+  width: 560px;
+  height: 366px;
+}
+
+/* PAGINA 02 */
+.adotar {
+  width: 80%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.card-img-top {
+  width: 300px;
+  height: 200px;
+  margin-top: 10px;
+}
+
+.cardAnimal {
+  background-color: #F4D4BB;
+  border: 2px solid #F4D4BB;
+}
+
+.cardAnimal:hover {
+  border: 0px;
+  background-color: #C5B1D6;
+}
+
+.meAdota {
+  border: 2px solid #ffff;
+  border-radius: 20px;
+  padding: 10px;
+  margin-top: 80px;
+}
+
+.meAdota:hover {
+  transition: .5s;
+  background-color: rgb(236, 157, 206);
+  border: 2px solid rgb(236, 157, 206);
+}
+
+/* PAGINA 03 - CONTATO */
+
+.contato {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form-control {
+  width: 500px;
+  border: 2px solid black;
+}
+
+.imgContato {
+  width: 400px;
+  margin-left: 30px;
+  margin-bottom: 40px;
+}
+
+.btnEnviar {
+  width: 200px;
+  padding: 5px;
+  margin-left: 150px;
+  margin-top: 20px;
+  background-color: #58cde7;
+  border: 2px solid #58cde7;
+  border-radius: 20px;
+}
+
+.btnEnviar:hover {
+  box-shadow: 0px 0px 5px 5px #58cde7;
+}
+
+/* PAGINA 04 - APRESENTAÇÃO */
+.quemSomos {
+  width: 85%;
+  height: 700px;
+  margin-left: 100px;
+  margin-top: 10%;
+}
+/* CARD - QUEM SOMOS */
+
+.cardsPersons {
+  display: flex;
+  justify-self: center;
+  justify-content: space-between;
+}
+
+.cardPerson {
+  border: 2px solid  #bde6b6;
+  background-color:  #bde6b6;
+  color: black;
+}
+
+.cardPerson:hover {
+  border: 2px solid rgba(184, 183, 183, 0.863);
+  background-color: rgba(184, 183, 183, 0.863);
+}
+
+.avatar {
+  width: 150px;
+  margin-top: 15px;
+  border: 2px solid black;
+}
+
+.names, .about {
+  font-size: 20px;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.clickRotate {
+  display: flex;
+  justify-content: center;
+}
+
+.fab {
+  color: #2da07a;
+  font-size: 25px;
+}
+
+.fa-github:hover {
+  color: #24292E;
+}
+
+.fa-linkedin:hover {
+  color: #0A66C1;
+}
+
+.quemtitulo {
+  text-align: center;
+}
+
+.quemtexto {
+  text-align: center;
+}
+
+.rafael {
+  font-size: 15.3px;
+}
